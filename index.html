@@ -64,7 +64,7 @@
 		border-bottom: 3px solid white;
 	}
 	nav{
-		background-color: #0e0e0ed5;
+		background-color: #222222a9;
         color: #ffffff;
         display: flex;
         flex-wrap: wrap;
@@ -119,9 +119,6 @@
         border-radius: 5px;
         cursor: pointer;
 	}
-	nav ul{
-		display: none;
-	}
 	img{
 		border: 4px ridge #00090f;
 	}
@@ -152,7 +149,7 @@
 	}
 	.foot{
 		grid-area: foot;
-		background-color: #0e0e0ed5;
+		background-color: #222222a9;
         color: #ffffff;
 	}
 	h5{
@@ -171,7 +168,7 @@
 			'section1 section1 section1'
 			'aside2 aside2 aside2'
 			'section2 section2 section2' 
-			'footer footer footer';
+			'foot foot foot';
 		}
 		#section1, #section2{
 			text-align: center;
@@ -179,6 +176,12 @@
 		h1{
 			text-shadow: 3px 2px 0px #ffffff;
 		}
+		nav a:first-child{
+            border-right: 3px solid black;
+        }
+        nav a:nth-child(2){
+            border-right: 3px solid black;
+        }
 	}
 	@media only screen and (min-width: 700px) and (max-width: 1200px){
 		.main{
@@ -190,11 +193,18 @@
 			'section1 section1 section1'
 			'aside2 aside2 aside2'
 			'section2 section2 section2' 
-			'footer footer footer';
+			'foot foot foot';
 		}
 		#section1, #section2{
 			text-align: center;
 		}
+		nav a:first-child{
+            border-right: 3px solid black;
+        }
+        nav a:nth-child(2){
+            border-right: 3px solid black;
+        }
 	}
+	
 </style>
 </html>
