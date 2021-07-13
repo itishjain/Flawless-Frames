@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet" />
+    <link rel="icon" href="images/logo.png">
+	<title>Flawless Frames</title>
+</head>
+<body>
+	<header>
+		<div class="nav">
+			<a href="index.html"><b>Home</b></a><a href="about.html"><b>About</b></a><a href="our_work.html"><b>Our Work</b></a>
+			<h1>Flawless Frames</h1>
+		</div>
+	</header>
+	<main>
+		<h2>Our Work</h2><br>
+		<h3><b>Here are some photos of beauty of Our Nature and wildlife</b></h3>
+		<div class="pics">
+			<img src="images/wild7.jpg" alt="Wildlife"/>
+				<img src="images/nature1.jpg" alt="Nature 1"/>
+				<img src="images/wildlife2.jpg" alt="Wildlife"/>
+				<img src="images/nature2.jpg" alt="Nature 2"/>
+				<img src="images/wildlife3.jpg" alt="Wildlife"/>
+				<img src="images/nature3.jpg" alt="Nature 3"/>
+				<img src="images/wildlife4.jpg" alt="Wildlife"/>
+				<img src="images/nature4.jpg" alt="Nature 4"/>
+				<img src="images/wildlife5.jpg" alt="Wildlife"/>
+				<img src="images/nature5.jpg" alt="Nature 5"/>
+				<img src="images/wildlife1.jpg" alt="Wildlife"/>
+				<img src="images/nature6.jpg" alt="Nature 6"/>
+				<img src="images/croc.jpg" alt="Wildlife"/>
+				<img src="images/nat.jpg" alt="Wildlife"/>
+				<img src="images/tiger.jpg" alt="Wildlife"/>
+		</div>
+	</main>
+    <div class="foot">
+        <h5>COPYRIGHT &copy;www.flawlessframes.com. All rights reserved!</h5>
+        <h5>Contact us :- 8740496275, 9846671952</h5>
+        <p>Email : fframes1144@gmail.com</p>
+        <p>
+          To know more about photography, check the below link in the description.</p>
+         <p id="lstpra"><a href="https://en.wikipedia.org/wiki/Photography">More Information</a></p>
+         </p>
+    </div>
+</body>
+<style>
+	body{
+        color: #FFFFFF;
+        background-image: linear-gradient(to right, #04619f, #080b0e 100%);
+        border-left: 12px ridge #E7EBDD;
+        border-top: 12px ridge #E7EBDD;
+        margin: 10px;
+        padding: 10px;
+    }
+    .pics{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        align-items: stretch;
+    }
+    h1{
+        font-size: 1.7em;
+        border-bottom: 3px ridge ;
+    }
+    h2{
+        font-size: 40px;
+        text-shadow: 5px 4px 0px #000b3b;
+        display: inline-block;
+        color: #ffffff;
+        font-family: "Aclonica", sans-serif;
+	    font-variant: small-caps;
+	    margin: 1em;
+	    padding: 5px;
+	    font-size: 2.5em;
+	    letter-spacing: 0.2em;
+	    cursor: pointer;
+        border-bottom: 3px solid #080b0e;
+    }
+    h3{
+        margin-left: 45px;
+        display: inline-block;
+		font-size: 1.7em;
+        font-family: Ink Free;
+        text-align: center;
+        color: #ffeeee;
+    }
+    .nav{
+		background-color: #0e0e0ed5;
+        color: #ffffff;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 3px;
+        padding: 5px;
+        font-size: 1.4em;
+        font-family: 'Merienda', cursive;
+	    /*font-variant: small-caps;*/
+	    text-shadow: 3px 2px 0px #034e80;
+        border: 3px solid #0e0e0ed5;
+        align-items: center;
+        justify-content:space-around;
+	}
+    .nav a{
+        margin: 2px;
+        padding: 4px;
+        text-decoration: none;
+        flex-wrap: wrap;
+        font-size: 1em;
+        color: #ffffff;
+        float: right;
+        font-family: 'Merienda', cursive;
+    }
+    .nav a:hover, nav a:focus{
+        border-bottom: 3px ridge #1ee671;
+        border-radius: 4px;
+    }
+    img{
+        width: 20em;
+        height: 20em;
+        margin: 5px;
+        border: 2.5px groove rgb(15, 15, 15);
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+    .foot{
+		grid-area: foot;
+		background-color: #0e0e0ed5;
+        color: #ffffff;
+        text-align: center;
+	}
+	h5{
+		font-size: 1.2em;
+	}
+	.foot p a{
+		color: yellow;
+	}
+    @media only screen and (max-width: 700px){
+        img{
+            width: 16em;
+        }
+    }
+</style>
+</html>

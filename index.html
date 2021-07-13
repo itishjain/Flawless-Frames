@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet" />
+	<link rel="icon" href="images/logo.png">
+	<title>Flawless Frames</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="index.html"><b>Home</b></a><a href="about.html"><b>About</b></a><a href="our_work.html"><b>Our Work</b></a>
+			<h1>Flawless Frames</h1>
+		</nav>
+	</header>
+	<div class="main">
+		<h2 id="head1">SNAP!!!<br>
+		If you are searching for some good photography website<br>
+		Then you have come to the right place my dear friend.<br>
+		You can have a look to some of our professional photographs at <br>"Our work".</h2>
+		<div id="section1">Photography is the art, application, and practice of creating durable images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film. It is employed in many fields of science, manufacturing (e.g., photolithography), and business, as well as its more direct uses for art, film and video production, recreational purposes, hobby, and mass communication.
+			Typically, a lens is used to focus the light reflected or emitted from objects into a real image on the light-sensitive surface inside a camera during a timed exposure. With an electronic image sensor, this produces an electrical charge at each pixel, which is electronically processed and stored in a digital image file for subsequent display or processing. The result with photographic emulsion is an invisible latent image, which is later chemically "developed" into a visible image, either negative or positive depending on the purpose of the photographic material and the method of processing. A negative image on film is traditionally used to photographically create a positive image on a paper base, known as a print, either by using an enlarger or by contact printing.
+		</div>
+		<div id="aside1">
+			<img src="images/nature-wallpaper.jpg" width="100%" alt="">
+		</div>
+		<div id="section2">
+			<b>Nature photography</b> is a wide range of photography taken outdoors and devoted to displaying natural elements such as landscapes, wildlife, plants, and close-ups of natural scenes and textures. Nature photography tends to put a stronger emphasis on the aesthetic value of the photo than other photography genres, such as photojournalism and documentary photography.
+			"Nature photography" overlaps the fields of—and is sometimes considered an overarching category including -- "wildlife photography," "landscape photography," and "garden photography".<br><br>
+
+			<b>Wildlife photography</b> is all about capturing animals in their natural habitats. The animals are often photographed in action, such as eating, fighting, or in flight. Alternatively, more static portraits may be used to show detail of the animal or to depict it in its environment. Captive or controlled animals are often photographed instead of true wild specimens, although it is arguable as to whether this constitutes true wildlife photography.
+			The world's largest photography organizations, the Photographic Society of America, the Fédération Internationale de l'Art Photographique and the Royal Photographic Society have agreed on a definition for nature and wildlife photography that will be applied to photography competitions.
+		</div>
+		<div id="aside2">
+			<img src="images/black-panther.jpg" width="100%" alt="">
+		</div>
+		<div class="foot">
+			<h5>COPYRIGHT &copy;www.flawlessframes.com. All rights reserved!</h5>
+			<h5>Contact us :- 8740496275, 9846671952</h5>
+        	<p>Email : fframes1144@gmail.com</p>
+        	<p>
+         	 To know more about photography, check the below link in the description.</p>
+         	<p id="lstpra"><a href="https://en.wikipedia.org/wiki/Photography">More Information</a></p>
+     		</p>
+		</div>
+</body>
+<style>
+	body{
+		color: #FFFFFF;
+        background-image: linear-gradient(to right, #04619f, #00090f 100%); 
+        border-left: 12px ridge #E7EBDD;
+        border-top: 12px ridge #E7EBDD;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+	}
+	h1{
+		font-size: 1.7em;
+		border-bottom: 3px solid white;
+	}
+	nav{
+		background-color: #0e0e0ed5;
+        color: #ffffff;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 3px;
+        padding: 5px;
+        font-size: 1.4em;
+        font-family: 'Merienda', cursive;
+	    /*font-variant: small-caps;*/
+	    text-shadow: 3px 2px 0px #034e80;
+        border: 3px solid #0e0e0ed5;
+        align-items: center;
+        justify-content:space-around;
+	}
+
+	nav a{
+		margin: 2px;
+        padding: 4px;
+        text-decoration: none;
+        flex-wrap: wrap;
+        font-size: 1em;
+        color: #ffffff;
+        float: right;
+        font-family: 'Merienda', cursive;
+	}
+	nav a:hover, nav a:focus{
+		border-bottom: 3px groove #1ee671;
+        border-radius: 4px;
+		cursor: pointer;
+	}
+	.main{
+		display: grid;
+		grid-gap: 0.4rem;
+		grid-template-areas: 
+		'heading heading heading'
+		'section1 section1 aside1'
+		'section2 section2 aside2' 
+		'foot foot foot';
+	}
+	#head1{
+		grid-area: heading;
+	}
+	h2{
+        text-shadow: 5px 4px 0px #000b3b;
+        display: inline-block;
+        color: #ffffff;
+        font-family: "Aclonica", sans-serif;
+        font-variant: small-caps;
+        margin: 1em;
+        padding: 5px;
+        font-size: 1.9em;
+        letter-spacing: 0.2em;
+        border-radius: 5px;
+        cursor: pointer;
+	}
+	nav ul{
+		display: none;
+	}
+	img{
+		border: 4px ridge #00090f;
+	}
+	#aside1{
+		grid-area: aside1;
+		margin: 15px;
+	}
+	#section1{
+		grid-area: section1;
+		font-size: 1.04em;
+		margin: 7px;
+		padding: 14px;
+		text-align: justify;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	}
+	#aside2{
+		grid-area: aside2;
+		margin-top: 40px;
+	}
+	#section2{
+		grid-area: section2;
+		color: #ffffff;
+		font-size: 1.04em;
+		margin: 3px;
+		padding: 14px;
+		text-align: justify;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	}
+	.foot{
+		grid-area: foot;
+		background-color: #0e0e0ed5;
+        color: #ffffff;
+	}
+	h5{
+		font-size: 1.2em;
+	}
+	.foot p a{
+		color: yellow;
+	}
+	@media only screen and (max-width: 700px){
+		.main{
+			display: grid;
+			grid-gap: 0.4rem;
+			grid-template-areas: 
+			'heading heading heading'
+			'aside1 aside1 aside1'
+			'section1 section1 section1'
+			'aside2 aside2 aside2'
+			'section2 section2 section2' 
+			'footer footer footer';
+		}
+		#section1, #section2{
+			text-align: center;
+		}
+		h1{
+			text-shadow: 3px 2px 0px #ffffff;
+		}
+	}
+	@media only screen and (min-width: 700px) and (max-width: 1200px){
+		.main{
+			display: grid;
+			grid-gap: 0.4rem;
+			grid-template-areas: 
+			'heading heading heading'
+			'aside1 aside1 aside1'
+			'section1 section1 section1'
+			'aside2 aside2 aside2'
+			'section2 section2 section2' 
+			'footer footer footer';
+		}
+		#section1, #section2{
+			text-align: center;
+		}
+	}
+</style>
+</html>

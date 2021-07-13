@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet" />
+    <link rel="icon" href="images/logo.png">
+	<title>Flawless Frames</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="index.html"><b>Home</b></a><a href="about.html"><b>About</b></a><a href="our_work.html"><b>Our Work</b></a>
+			<h1>Flawless Frames</h1>
+		</nav>
+	</header>
+	<div class="container">
+		<div class="aside">
+			<img src="images/nature-photo.jpg" alt="Nature"/>
+		</div>
+		<div class="ap" id="p1">
+			<h2>ABOUT US</h2><br>
+			"The more clearly we can focus our attention on the wonders and realities of the universe about us, the less taste we shall have for destruction."</p><br><br>
+			As you have visited our website, now you must be having an idea that our page is all about photography.<br><br>
+			Our professional photographers explore different destinations to get these amazing pictures.<br><br>
+			In this webpage you can find the some admirable piece of work.<br><br>
+			You must have a look over assemblance of <b>Our Work</b> by selecting the desired category mentioned above.<br><br>
+			We hope you will take a glimpse and enjoy the eirenic nature's beauty and may serve in conserving it :)
+			</div>
+			</div>
+		<div class="ap" id="p2">
+            <h4>Macro and Texture</h4>
+            The macro photography article explains close-up photography in general; however, this is also a type of nature photography. While common macro subjects – bees, dragonflies, and so on – could be described as wildlife, their world also makes for good photography.
+            Many photographers record images of the texture in a stone, tree bark, leaf, or any of other small scenes. Many of these images are abstract. Tiny plants and mushrooms are also popular subjects. Close-up nature photography doesn't always need a true macro lens; however, the scenes here are small enough that they're generally considered different from regular landscapes.
+            Color images are not a requirement of nature photography. Ansel Adams is famous for his black-and-white depictions of nature, while Galen Rowell praised Fujifilm Velvia film for its bright, saturated colors, asking "Who wants to take dull pictures that will last a hundred years?" Both men distinguish between photography as an expressive art form and sensitometry; an accurate reproduction is not necessary.
+		</div>
+        <div class="foot">
+			<h5>COPYRIGHT &copy;www.flawlessframes.com. All rights reserved!</h5>
+			<h5>Contact us :- 8740496275, 9846671952</h5>
+        	<p>Email : fframes1144@gmail.com</p>
+        	<p>
+         	 To know more about photography, check the below link in the description.</p>
+         	<p id="lstpra"><a href="https://en.wikipedia.org/wiki/Photography">More Information</a></p>
+     		</p>
+		</div>
+</body>
+<style>
+	body{
+        color: #FFFFFF;
+        background-image: linear-gradient(to right, #04619f, #00090f 100%); 
+        border-left: 12px ridge #E7EBDD;
+        border-top: 12px ridge #E7EBDD;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+    h1{
+        font-size: 1.7em;
+        border-bottom: 3px solid white;
+    }
+    h4{
+        font-size: 25px;
+        text-align: left;
+        text-shadow: 3px 2px 0px #000b3b;
+        margin-left: 20px;
+        font-family: "Aclonica", sans-serif;
+        letter-spacing: 0.15em;
+    }
+    .container{
+        display: grid;
+        grid-gap: 0.4rem;
+        grid-template-areas: 
+        'aside aside para1 para1'
+        'aside aside para2 para2' ;
+    }
+    #p1{
+        grid-area: para1;
+    }
+    #p2{
+        grid-area: para2;
+    }
+    #aside{
+        grid-area: aside;
+    }
+    h2{
+            font-size: 40px;
+            text-shadow: 5px 4px 0px #000b3b;
+            display: inline-block;
+            color: #ffffff;
+            font-family: "Aclonica", sans-serif;
+            font-variant: small-caps;
+            margin: 1em;
+            padding: 5px;
+            font-size: 2.5em;
+            letter-spacing: 0.2em;
+            border-radius: 5px;
+            cursor: pointer;
+   }
+    .para{
+        font-size: 1.4em;
+        text-align: left;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #ffffff;
+    }
+    nav{
+        background-color: #0e0e0ed5;
+        color: #ffffff;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 3px;
+        padding: 5px;
+        font-size: 1.4em;
+        font-family: 'Merienda', cursive;
+	    /*font-variant: small-caps;*/
+	    text-shadow: 3px 2px 0px #034e80;
+        border: 3px solid #0e0e0ed5;
+        align-items: center;
+        justify-content: space-around;
+    }
+    nav a{
+        margin: 2px;
+        padding: 4px;
+        text-decoration: none;
+        flex-wrap: wrap;
+        font-size: 1em;
+        color: #ffffff;
+        float: right;
+        font-family: 'Merienda', cursive;
+    }
+    nav a:hover, nav a:focus{
+        border-bottom: 3px groove #1ee671;
+        border-radius: 4px;
+    }
+    img{
+        margin-left: 5px;
+        height: 80vh;
+        border: 3px solid #000000;
+    }
+    .foot{
+		grid-area: foot;
+		background-color: #0e0e0ed5;
+        color: #ffffff;
+	}
+	h5{
+		font-size: 1.2em;
+	}
+	.foot p a{
+		color: yellow;
+	}
+    @media only screen and (max-width: 700px){
+        .container{
+            display: grid;
+            grid-gap: 0.4rem;
+            grid-template-areas: 
+            'aside aside aside aside'
+            'para1 para1 para1 para1'
+            'para2 para2 para2 para2';
+        }
+        h2, .ap{
+            text-align: center;
+        }
+        img{
+            width: 16em;
+        }
+        #p1{
+            font-size: 1em;
+        }
+        #2{
+            font-size: 1em;
+        }
+    }
+    @media only screen and (min-width: 700px) and (max-width: 1000px){
+        .container{
+            display: grid;
+            grid-gap: 0.4rem;
+            grid-template-areas: 
+            'aside aside aside aside'
+            'para1 para1 para1 para1'
+            'para2 para2 para2 para2' ;
+        }
+        .ap{
+            text-align: center;
+        }
+    }
+</style>
+</html>
